@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './Carousel.css';
+import './Public';
 
 const images = [
-    'image1.jpg',
-    'image2.jpg',
-    'image3.jpg',
-    'image4.jpg',
+    'cat1.jpeg',
+    'cat2.jpeg',
+    'cat3.jpeg',
 ];
 
 function Carousel() {
