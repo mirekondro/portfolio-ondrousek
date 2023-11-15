@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import './carousel.css';
-import './Public';
-
+import './_carousel.css';
 const images = [
     'cat1.jpeg',
     'cat2.jpeg',
