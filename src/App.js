@@ -5,8 +5,7 @@ import Carousel from "./components/carousel/carousel";
 
 function App() {
     return (
-        <NavigationMenu/>,
-    <Carousel/>
+        <NavigationMenu/>
 )
     ;
 }

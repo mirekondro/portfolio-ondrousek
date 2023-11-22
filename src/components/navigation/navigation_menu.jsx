@@ -1,12 +1,15 @@
 import React from 'react';
+import './_navigation_menu.css';
 
 function NavigationMenu() {
     return (
-        <ul>
-            <li><a href="src/components#section1">Sekce 1</a></li>
-            <li><a href="src/components#section2">Sekce 2</a></li>
-            <li><a href="src/components#section3">Sekce 3</a></li>
-        </ul>
+        <div>
+            <ul>
+                <li><a href="src/components#section1">Home</a></li>
+                <li><a href="src/components#section2">About Us</a></li>
+                <li><a href="src/components#section3">Contact</a></li>
+            </ul>
+        </div>
     );
 }
 
