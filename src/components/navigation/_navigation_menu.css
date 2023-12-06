@@ -1,24 +1,93 @@
-ul {
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333; /* Barva pozadí navigačního menu */
 }
 
-li {
-    float: right;
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-li a {
-    display: block;
-    color: white;
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    background: linear-gradient(108deg, #FC4A1A -36.03%, #F7B733 128.44%);
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 1.5em 1em 1em 1em;
 }
 
-/* Styl pro odkazy po najetí myši */
-li a:hover {
-    background-color: #111; /* Barva pozadí při najetí myši */
+header #logo a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+#mainnav {
+    background: #27323E;
+    color: #fff;
+    font-weight: bold;
+    text-transform:uppercase;
+    letter-spacing: .05em;
+}
+
+#mainnav #menu {
+    display: none;
+    padding: .8em 1.5em;
+    cursor: pointer;
+}
+
+
+#mainnav ul {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+#mainnav ul li {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+#mainnav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: .9em 1.5em .8em 1.5em;
+}
+
+#mainnav ul li a:hover {
+    color: #000;
+    background: linear-gradient(108deg, #FC4A1A -36.03%, #F7B733 128.44%);
+}
+
+.content {
+    padding: 1.5em;
+}
+
+@media all and (max-width: 767px) {
+
+    #mainnav #menu {
+        display: block;
+    }
+
+    #mainnav ul {
+        display: none;
+        background: #666;
+        padding: 1em;
+        text-align: left;
+    }
+    #mainnav ul li {
+        display: block;
+    }
+
+    #mainnav ul li a {
+        display: block;
+        padding: .75em 1.5em .5em 1.5em;
+    }
+
 }

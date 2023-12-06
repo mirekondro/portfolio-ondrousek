@@ -1,0 +1,38 @@
+.hero
+{
+    background-color: #27323E;
+    width: 100%;
+    height: 100vh;
+}
+
+.homepage
+{
+    text-align: center;
+}
+
+.homepage h1
+{
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage h2
+{
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.homepage p
+{
+    background: linear-gradient(108deg, #FC4A1A -36.03%, #F7B733 128.44%);
+    width: 134px;
+    height: 64px;
+    border-radius: 45px 45px 45px 0;
+    padding-top: 5%;
+}

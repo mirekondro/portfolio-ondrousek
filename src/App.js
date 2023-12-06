@@ -1,11 +1,14 @@
 import './App.css';
 import NavigationMenu from "./components/navigation/navigation_menu";
-import Homepage from "./pages/homepage";
-import Carousel from "./components/carousel/carousel";
+import Homepage from "./pages/homepage/homepage";
+
 
 function App() {
     return (
-        <NavigationMenu/>
+        <div>
+            <NavigationMenu></NavigationMenu>
+            <Homepage></Homepage>
+        </div>
 )
     ;
 }
