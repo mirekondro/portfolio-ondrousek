@@ -1,13 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@500;800&display=swap');
+
 .hero
 {
     background-color: #27323E;
     width: 100%;
     height: 100vh;
-}
-
-.homepage
-{
-    text-align: center;
 }
 
 .homepage h1
@@ -17,6 +14,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    letter-spacing: 1px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .homepage h2
@@ -24,15 +24,41 @@
     color: #FFF;
     font-size: 22px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: lighter;
     line-height: normal;
+    font-family: Arial;
 }
 
+.jsem
+{
+    width: 11%;
+    height: 100%;
+    background: linear-gradient(45deg, #FC4A1A, #F7B733);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    border-radius: 45px 45px 45px 45px;
+    font-family: Arial;
+}
 .homepage p
 {
-    background: linear-gradient(108deg, #FC4A1A -36.03%, #F7B733 128.44%);
-    width: 134px;
-    height: 64px;
-    border-radius: 45px 45px 45px 0;
-    padding-top: 5%;
+    margin-left : 20px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.obrazek_home img
+{
+    width: 470px;
+    height: 902px;
+    flex-shrink: 0;
+    margin-left: 60%;
+    margin-top: -10%;
+}
+
+.tlacitko
+{
+    width: 44.973px;
+    height: 77px;
+    flex-shrink: 0;
 }

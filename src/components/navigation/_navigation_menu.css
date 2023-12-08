@@ -61,7 +61,7 @@ header #logo a {
 }
 
 #mainnav ul li a:hover {
-    color: #000;
+    color: white;
     background: linear-gradient(108deg, #FC4A1A -36.03%, #F7B733 128.44%);
 }
 
