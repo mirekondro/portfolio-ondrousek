@@ -1,6 +1,6 @@
 import React from 'react';
 import './_homepage.css';
-
+import {introdata, socials} from '../../my_data';
 
 function Homepage() {
     return (
@@ -11,7 +11,9 @@ function Homepage() {
                         <p>Hello, I´m</p>
                     </div>
                     <h1>Miroslav Ondroušek</h1>
-                    <h2>PROFESSIONAL GMAIL USER</h2>
+                    <h2>
+                        <introdata className="first"></introdata>
+                    </h2>
                     <div className="obrazek_home">
                         <img src="/foto1.png" alt="Orange man"></img>
                     </div>
