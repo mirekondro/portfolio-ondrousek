@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: linear-gradient(108deg, #FC4A1A -36.03%, #F7B733 128.44%);
+    background: #bfb196;
     text-align: center;
     padding: 1.5em 1em 1em 1em;
 }
@@ -27,7 +27,7 @@ header #logo a {
 }
 
 #mainnav {
-    background: #27323E;
+    background: white;
     color: #fff;
     font-weight: bold;
     text-transform:uppercase;
@@ -54,7 +54,7 @@ header #logo a {
 }
 
 #mainnav ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     display: inline-block;
     padding: .9em 1.5em .8em 1.5em;
@@ -62,7 +62,7 @@ header #logo a {
 
 #mainnav ul li a:hover {
     color: white;
-    background: linear-gradient(108deg, #FC4A1A -36.03%, #F7B733 128.44%);
+    background: #bfb196;
 }
 
 .content {

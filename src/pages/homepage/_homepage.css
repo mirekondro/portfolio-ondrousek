@@ -7,10 +7,16 @@
     height: 100vh;
 }
 
+.homepage .jmeno
+{
+    margin-left: 15%;
+    padding-top: 10%;
+}
+
 .homepage h1
 {
     color: #FFF;
-    font-size: 72px;
+    font-size: 55px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -19,41 +25,25 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.homepage h2
+.homepage .jmeno p
 {
-    color: #FFF;
-    font-size: 22px;
-    font-style: normal;
+    padding-top: 3%;
+    font-family: "Times New Roman";
     font-weight: lighter;
-    line-height: normal;
-    font-family: Arial;
-}
-
-.jsem
-{
-    width: 11%;
-    height: 100%;
-    background: linear-gradient(45deg, #FC4A1A, #F7B733);
-    background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
-    border-radius: 45px 45px 45px 45px;
-    font-family: Arial;
-}
-.homepage p
-{
-    margin-left : 20px;
     color: white;
-    font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 20px;
 }
 
 .obrazek_home img
 {
-    width: 470px;
-    height: 902px;
+    width: 450px;
+    height: 600px;
     flex-shrink: 0;
     margin-left: 60%;
-    margin-top: -10%;
+    margin-top: 0;
+    position: absolute;
+    top: 25%;
 }
 
 .tlacitko
