@@ -9,7 +9,7 @@
 
 .homepage .jmeno
 {
-    margin-left: 10%;
+    margin-left: 5%;
     padding-top: 10%;
 }
 
@@ -20,10 +20,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1px;
-    margin-top: -5%;
+    margin-top: -7%;
     font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    margin-right: 53%;
 }
 
 .homepage h2
@@ -32,38 +33,119 @@
     font-size: 40px;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 1px;
     position: absolute;
-    top: 55%;
+    top: 49%;
     font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    left: 33%;
 }
 
-.homepage .jmeno p
+.homepage .abtme-btn
 {
-    font-family: Arial;
-    font-weight: 600;
-    color: #27323E;
-    letter-spacing: 1px;
-    font-size: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 290px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    background: #63B0CD;
+    color: white;
     position: absolute;
-    left: 29%;
-    top: 56%;
-    text-align: right;
+    left: 7%;
+    top: 50%;
+}
+
+.homepage .abtme-btn:hover
+{
+    background-color: #27323E;
+    color: white;
 }
 
 .obrazek_home img
 {
-    width: 800px;
-    height: 800px;
+    width: 775px;
+    height: 775px;
     flex-shrink: 0;
-    margin-left: 50%;
-    margin-top: 0;
+    margin-left: 54%;
     position: absolute;
-    top: 15%;
+    top: 10%;
 }
 
-span
+.homepage .clients-stats h3
 {
-    color: #c0b298;
+    color: #27323E;
+    text-align: right;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 106px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    top: 58%;
+    left: 7%;
 }
+
+.homepage .clients-stats h4
+{
+    color: #27323E;
+    font-family: Arial;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 79%;
+    left: 7%;
+}
+
+.homepage .projects-stats h3
+{
+    color: #27323E;
+    text-align: right;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 106px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    position: absolute;
+    top: 58%;
+    left: 23%;
+}
+
+.homepage .projects-stats h4
+{
+    color: #27323E;
+    text-align: right;
+    font-family: Arial;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 79%;
+    left: 23%;
+}
+
+.homepage .insta-icon img
+{
+    width: 170px;
+    height: 170px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 70%;
+    left: 52%;
+}
+
+.homepage .github-icon img
+{
+    width: 170px;
+    height: 170px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+

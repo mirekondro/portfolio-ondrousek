@@ -9,9 +9,9 @@ function NavigationMenu() {
                 <img src="mo.png" alt="Logo"></img>
                 <ul>
                     <li><a href="#" className="active">HOME</a></li>
-                    <li><a href="#">O NÁS</a></li>
-                    <li><a href="#">MOJE PRÁCE</a></li>
-                    <li><a href="#">KONTAKT</a></li>
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">MY WORK</a></li>
+                    <li><a href="#">CONTACT</a></li>
                 </ul>
             </nav>
         </div>

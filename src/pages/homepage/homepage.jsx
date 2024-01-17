@@ -9,7 +9,7 @@ function Homepage() {
             <section className="hero">
                 <div className="homepage">
                     <motion.div
-                        initial= {{scale: 1, opacity: 0, x: -270}}
+                        initial= {{scale: 1, opacity: 0, x: 0}}
                         whileInView={{opacity: 1, x: 0}}
                         transition={{duration: 0.5}}
                         viewport={{once: false}}
@@ -17,17 +17,42 @@ function Homepage() {
 
                     <div className="jmeno">
                         <h1>MIROSLAV</h1><br></br>
-                        <h1><span>Ondroušek</span></h1>
+                        <h1>ONDROUŠEK</h1>
                         <h2>UX/UI Designer</h2>
-                        <p>Lorem ipsum consectetuer adipiscing elit.<br></br>
-                            Pellentesque ipsum. <br></br>
-                            Nullam dapibus fermentum ipsum.<br></br></p>
+                        <a href="#" className="abtme-btn">About Me</a>
                     </div>
+                    </motion.div>
 
+
+                    <div className="clients-stats">
+                            <h3>225</h3>
+                            <h4>Clients happy</h4>
+                        </div>
+
+                        <div className="projects-stats">
+                            <h3>432</h3>
+                            <h4>Projects done</h4>
+                        </div>
+
+                        <div className="insta-icon">
+                            <a href="https://www.instagram.com/mirekondro1/" target="_blank"><img src="instagram.png" alt="Instagram Logo"/></a>
+                        </div>
+
+                        <div className="github-icon">
+                            <a href="https://github.com/mirekondro" target="_blank"><img src="github.png" alt="Github Logo"/></a>
+                        </div>
+
+                    <motion.div
+                        initial= {{scale: 1, opacity: 0, x: 0}}
+                        whileInView={{opacity: 1, x: 0}}
+                        transition={{duration: 0.5}}
+                        viewport={{once: false}}
+                    >
                     <div className="obrazek_home">
                         <img src="homepage_image.png" alt="špíňák"></img>
                     </div>
-                </motion.div>
+                    </motion.div>
+
                 </div>
 
             </section>
