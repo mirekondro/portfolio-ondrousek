@@ -5,19 +5,13 @@ import './_navigation_menu';
 function NavigationMenu() {
     return (
         <div>
-            <header>
-                <div id="logo"><h1><a href="#">MO</a></h1></div>
-            </header>
-
-
-            <nav id="mainnav" className="group">
-                <div id="menu">&#x2261; Menu</div>
+            <nav>
+                <img src="mo.png" alt="Logo"></img>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" className="active">HOME</a></li>
+                    <li><a href="#">O NÁS</a></li>
+                    <li><a href="#">MOJE PRÁCE</a></li>
+                    <li><a href="#">KONTAKT</a></li>
                 </ul>
             </nav>
         </div>
