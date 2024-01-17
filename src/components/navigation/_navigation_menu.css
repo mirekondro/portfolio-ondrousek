@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@500;800&display=swap');
 
 nav {
-    background-color: #27323E;
+    background-color: white;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -26,16 +26,11 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #27323E;
     letter-spacing: 1px;
+    font-weight: 600;
     font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Montserrat', sans-serif;
-}
-
-nav a:hover {
-    text-decoration: none;
-    color: #c0b298;
-    position: relative;
 }
 
 nav a:hover:after {
@@ -43,13 +38,13 @@ nav a:hover:after {
     display: block;
     width: 100%;
     height: 2px;
-    background: #c0b298;
+    background: #27323E;
     margin-top: 1px;
 }
 
 nav a.active {
     text-decoration: none;
-    color: #c0b298;
+    color: #27323E;
     position: relative;
 }
 
@@ -58,6 +53,6 @@ nav a.active:after {
     display: block;
     width: 100%;
     height: 2px;
-    background: #c0b298;
+    background: #27323E;
     margin-top: 1px;
 }
