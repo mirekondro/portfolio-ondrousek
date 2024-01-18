@@ -11,7 +11,7 @@ function Homepage() {
                     <motion.div
                         initial= {{scale: 1, opacity: 0, x: 0}}
                         whileInView={{opacity: 1, x: 0}}
-                        transition={{duration: 0.5}}
+                        transition={{duration: 2.5}}
                         viewport={{once: false}}
                     >
 
@@ -25,12 +25,12 @@ function Homepage() {
 
 
                     <div className="clients-stats">
-                            <h3>225</h3>
+                            <h3>20+</h3>
                             <h4>Clients happy</h4>
                         </div>
 
                         <div className="projects-stats">
-                            <h3>432</h3>
+                            <h3>40+ </h3>
                             <h4>Projects done</h4>
                         </div>
 
@@ -43,9 +43,9 @@ function Homepage() {
                         </div>
 
                     <motion.div
-                        initial= {{scale: 1, opacity: 0, x: 0}}
-                        whileInView={{opacity: 1, x: 0}}
-                        transition={{duration: 0.5}}
+                        initial= {{scale: 1, opacity: 0, y: 0}}
+                        whileInView={{opacity: 1, y: 0}}
+                        transition={{duration: 2.5}}
                         viewport={{once: false}}
                     >
                     <div className="obrazek_home">

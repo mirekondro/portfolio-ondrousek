@@ -1,6 +1,7 @@
 import './App.css';
 import NavigationMenu from "./components/navigation/navigation_menu";
 import Homepage from "./pages/homepage/homepage";
+import AboutMe from "./pages/aboutme/aboutme";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
         <div>
             <NavigationMenu></NavigationMenu>
             <Homepage></Homepage>
+            <AboutMe></AboutMe>
         </div>
 )
     ;
