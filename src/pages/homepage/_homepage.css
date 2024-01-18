@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@500;800&display=swap');
 
+*
+{
+    overflow-x: hidden;
+}
+
 .hero
 {
     background-color: white;
