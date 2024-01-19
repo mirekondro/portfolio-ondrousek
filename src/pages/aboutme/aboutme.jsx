@@ -13,8 +13,7 @@ function AboutMe() {
                     viewport={{once: false}}
                 >
                 <div className="nadpis">
-                    <h1>Let´s</h1>
-                    <h1>Tell About Me</h1>
+                    <h1>About Me</h1>
                 </div>
 
                 <div className="obrazek_about">
@@ -25,9 +24,9 @@ function AboutMe() {
 
                 <div className="text-block-about">
                     <motion.div
-                        initial= {{scale: 1, opacity: 0, x: 70}}
+                        initial= {{scale: 1, opacity: 0, x: 0}}
                         whileInView={{opacity: 1, x: 0}}
-                        transition={{duration: 0.5}}
+                        transition={{duration: 2.5}}
                         viewport={{once: false}}
                     >
                     <h2>Lorem ipsum dolor sit amet, consectetue. Fusce aliquam vestibulum ipsum.</h2>
