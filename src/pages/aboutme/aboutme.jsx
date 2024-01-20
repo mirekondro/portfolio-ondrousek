@@ -26,8 +26,8 @@ function AboutMe() {
                     <h2>Lorem ipsum dolor sit amet, consectetue. Fusce aliquam vestibulum ipsum.</h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-                    <a href="#" className="getintouch-btn">Get In Touch</a>
-                    <a href="#" className="portfolio-btn">Portfolio</a>
+                    <a href="tel:+420604164894" target="_blank" className="getintouch-btn">Get In Touch</a>
+                    <a href="https://github.com/mirekondro" target="_blank" className="portfolio-btn">Portfolio</a>
                 </div>
             </section>
         </div>
