@@ -52,7 +52,6 @@ function Homepage() {
         <img src="homepage_image.png" alt="špíňák"></img>
     </div>
 </motion.div>
-
 </div>
 
 </section>

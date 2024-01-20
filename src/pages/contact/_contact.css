@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
 .hero4
 {
@@ -60,20 +61,68 @@ span
 {
     position: absolute;
     top: 630%;
-    left: 30%;
+    left: 20%;
+    font-family: 'Lalezar', system-ui;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero4 .text-icons .phone-text
 {
     margin-bottom: 100px;
+    color: #27323E;
 }
 
 .hero4 .text-icons .mail-text
 {
     margin-bottom: 100px;
+    color: #27323E;
 }
 
 .hero4 .text-icons .location-text
 {
     margin-bottom: 100px;
+    color: #27323E;
+}
+
+.hero4 .text-icons a
+{
+    text-decoration: none;
+    color: #27323E;
+}
+
+.hero4 .obrazek_contact
+{
+    transform: scaleX(-1);
+    width: 965px;
+    height: 733px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    position: absolute;
+    top: 630%;
+    right: 7%;
+}
+
+.hero4 .contactme-btn
+{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 290px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    background: #F6F6F6;
+    color: black;
+    position: absolute;
+    left: 42%;
+    top: 690%;
+}
+
+.hero4 .contactme-btn:hover
+{
+    background-color: #27323E;
+    color: white;
 }

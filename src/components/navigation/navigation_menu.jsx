@@ -1,6 +1,12 @@
 import React from 'react';
 import './_navigation_menu.css';
 import './_navigation_menu';
+import Homepage from "../../pages/homepage/homepage";
+import Aboutme from "../../pages/aboutme/aboutme";
+import MyWork from "../../pages/mywork/mywork";
+import Contact from "../../pages/contact/contact";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 
 function NavigationMenu() {
     return (
