@@ -4,7 +4,7 @@
 {
     background-color: white;
     width: 100%;
-    height: 100vh;
+    height: 275vh;
 }
 
 .hero3 .nadpis
@@ -26,4 +26,162 @@
     margin-top: 3.5%;
     padding-top: 1%;
     padding-left: 7%;
+}
+
+.hero3 .obrazek_mywork
+{
+    width: 865px;
+    height: 633px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    position: absolute;
+    top: 280%;
+    left: 7%;
+}
+
+.hero3 .work1-text
+{
+    color: #27323E;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    top: 280%;
+    left: 60%;
+}
+
+.hero3 .work1-type
+{
+    color: #63B0CD;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    top: 295%;
+    left: 60%;
+}
+
+.hero3 .work1-description
+{
+    width: 615px;
+    height: 309px;
+    flex-shrink: 0;
+    color: #27323E;
+    font-family: Arial;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    position: absolute;
+    top: 310%;
+    left: 60%;
+}
+
+.hero3 .obrazek_mywork2
+{
+    width: 865px;
+    height: 678px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    position: absolute;
+    top: 380%;
+    right: 7%;
+}
+
+.hero3 .obrazek2_mywork2
+{
+    width: 865px;
+    height: 678px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    position: absolute;
+    top: 460%;
+    right: 7%;
+}
+
+.hero3 .work2-text
+{
+    color: #27323E;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    top: 380%;
+    right: 60%;
+}
+
+.hero3 .work2-type
+{
+    color: #63B0CD;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;
+    position: absolute;
+    top: 395%;
+    right: 60%;
+}
+
+.hero3 .work2-description
+{
+    width: 703px;
+    height: 1061px;
+    flex-shrink: 0;
+    color: #27323E;
+    font-family: Arial;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    position: absolute;
+    top: 410%;
+    left: 7%;
+}
+
+.hero3 .work2-description2
+{
+    width: 703px;
+    height: 1061px;
+    flex-shrink: 0;
+    color: #27323E;
+    font-family: Arial;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    position: absolute;
+    top: 450%;
+    left: 7%;
+}
+
+.hero3 .showmore-btn
+{
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    width: 290px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 59px;
+    background: #63B0CD;
+    color: white;
+    position: absolute;
+    left: 42%;
+    top: 550%;
+    margin-bottom: 10%;
+}
+
+.hero3 .showmore-btn:hover
+{
+    background-color: #27323E;
+    color: white;
 }
