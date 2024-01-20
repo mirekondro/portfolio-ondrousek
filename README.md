@@ -1,6 +1,6 @@
 ## Installation
 Clone the project, using git or download it directly, into local environment
-```
+
 Install all the npm packages, using terminal, inside the project folder
 ```terminal
 npm install
