@@ -31,6 +31,7 @@ nav a {
     font-weight: 600;
     font-family: 'Mochiy Pop P One', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav a:hover:after {

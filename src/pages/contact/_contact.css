@@ -126,3 +126,22 @@ span
     background-color: #27323E;
     color: white;
 }
+
+.paticka
+{
+    width: 100%;
+    height: 20vh;
+    background-color: #F6F6F6;
+}
+
+.paticka h1
+{
+    text-align: center;
+    margin-top: 4%;
+    color: #27323E;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}

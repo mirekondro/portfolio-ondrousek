@@ -47,6 +47,10 @@ function Contact() {
                 <a href="tel:+420604164894" className="contactme-btn">Contact Me</a>
 
             </section>
+
+            <div className="paticka">
+                <h1>©2024 Ondroušek Miroslav</h1>
+            </div>
         </div>
     );
 }

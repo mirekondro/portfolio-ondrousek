@@ -1,22 +1,15 @@
-import './App.css';
-import NavigationMenu from "./components/navigation/navigation_menu";
-import Homepage from "./pages/homepage/homepage";
-import AboutMe from "./pages/aboutme/aboutme";
-import Mywork from "./pages/mywork/mywork";
-import Contact from "./pages/contact/contact";
+import Home from "./pages/Home";
 
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
-function App() {
+export default function App() {
     return (
-        <div>
-            <NavigationMenu></NavigationMenu>
-            <Homepage></Homepage>
-            <AboutMe></AboutMe>
-            <Mywork></Mywork>
-            <Contact></Contact>
-        </div>
-)
-    ;
+        <Router>
+            <div className="App">
+                <Routes>
+                    <Route exact path="/" element={<Home />}/>
+                </Routes>
+            </div>
+        </Router>
+    );
 }
-
-export default App;

@@ -19,7 +19,7 @@ function Homepage() {
                             <h1>MIROSLAV</h1><br></br>
                             <h1>ONDROUŠEK</h1>
                             <h2>UX/UI Designer</h2>
-                            <a href="#" className="abtme-btn">About Me</a>
+                            <a href="https://www.linkedin.com/" target="_blank" className="abtme-btn">About Me</a>
                         </div>
                     </motion.div>
 
