@@ -32,3 +32,5 @@ Poslední stránka Contact obsahuje 3 možnosti kontaktu, jedna je telefonní č
 Dále už je zde jenom jednoduchá patička s copyrightem.
 
 Na této práci bych chtěl v budoucnu zlepšit ještě dost věcí. Jednou z hlavních je přidat mobilní verzi. Dále bych chtěl přidat více prací ke své prezentaci. Na webu je ještě dost věcí co zlepšit, ale dle mého názoru web nevypadá vůbec špatně a je použitelný. Tomuto projektu bych určitě chtěl věnovat svůj čas i v budoucnu a to jeho čím dál větším vylepšování.
+
+https://portfolio-ondrousek.vercel.app/
