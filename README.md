@@ -31,6 +31,8 @@ Další stránka My Work obsahuje na jedné straně obrázek práce a na druhé 
 Poslední stránka Contact obsahuje 3 možnosti kontaktu, jedna je telefonní číslo, dále email a nakonec je tam adresa. Pokud uživatel klikne na tel. číslo může mi ihned zavolat. To samé platí pro email.
 Dále už je zde jenom jednoduchá patička s copyrightem.
 
+Na tomto webu se mi nedařilo centrování a pozice textů. Určitě by to šlo udělat i lépe, ale důležité je, že to funguje, každopádně by to chtělo zlepšit. 
+
 Na této práci bych chtěl v budoucnu zlepšit ještě dost věcí. Jednou z hlavních je přidat mobilní verzi. Dále bych chtěl přidat více prací ke své prezentaci. Na webu je ještě dost věcí co zlepšit, ale dle mého názoru web nevypadá vůbec špatně a je použitelný. Tomuto projektu bych určitě chtěl věnovat svůj čas i v budoucnu a to jeho čím dál větším vylepšování.
 
 https://portfolio-ondrousek.vercel.app/
