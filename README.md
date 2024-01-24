@@ -24,6 +24,7 @@ npm i react-router-dom
 ![Screenshot 2024-01-20 at 22 46 32](https://github.com/mirekondro/portfolio-ondrousek/assets/130686217/f832336b-92f7-4fc2-92e4-03a5a91a6a99)
 
 Web jsem se snažil udělat moderním stylem, který nebude vypadat stejně jako ostatní. 
+Používaná technologie - React JS
 
 Homepage je za mě neobvyklá, protože například velké ikony se moc nevidí. Chtěl jsem využít celou velikost stránky.
 Stránka About Me obsahuje nějaký text, dále dvě tlačítka pro rychlé akce a ilustrační obrázek.
