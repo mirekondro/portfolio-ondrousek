@@ -60,8 +60,8 @@
 .hero2 .text-block-about p
 {
     color: black;
-    width: 550px;
-    height: 120px;
+    width: 555px;
+    height: 125px;
     flex-shrink: 0;
     font-family: 'Lalezar', system-ui;
     font-family: 'Open Sans', sans-serif;
